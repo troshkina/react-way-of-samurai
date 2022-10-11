@@ -1,8 +1,15 @@
-.header {
-    grid-area: h;
-    background-color: purple;
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+    padding: 10px;
+}
+.dialogsItems .active {
+    color: blue;
 }
 
-.header img {
-    width: 50px;
+.messages {
+    padding: 10px;
 }
+

@@ -1,14 +1,9 @@
-.content {
-    grid-area: c;
-    background-color: mistyrose;
-}
 .item {
     color: darkcyan;
 }
-.mainImage {
-    height: 400px;
-    width: 100%;
+.postBlock {
+    padding: 10px;
 }
-.profileImage {
-    height: 60px;
+.posts {
+    margin-top: 10px;
 }
